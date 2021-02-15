@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Fredoka One', cursive;
+}
+body{
+	background: #201F1F;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	position: relative;
+	font-size: 4em;
+	list-style: none;
+	color: #EBE9E9;
+
+}
+nav ul li{
+	margin: 20px;
+}
+nav ul li:hover{
+	transition: 0.5s ease all;
+	cursor: pointer;
+	transform: translateY(-10px);
+}
+.pinterest:hover{
+	color: #BA0707;
+}
+.facebook:hover{
+	color: #2C51CB;
+}
+.whatsapp:hover{
+	color: #27D848;
+}
+.youtube:hover{
+	color: #E61616;
+}
+.messenger:hover{
+	color: #2F5DD1;
+}
+.discord:hover{
+	color: #5E4E6E;
+}
+.instagram:hover{
+	color: #A922D5;
+}
